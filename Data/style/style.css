@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#ff_container{
+    height: 100%;
+    width: 100%;
+}
+/*****Header Section *****/
+#ff_header_section{
+    height: 80px;
+    box-shadow: 0px 40px 10px 0px gray;
+    border-bottom-style: solid;
+    border-color: #FF0204;
+    border-bottom-width: 1px;
+    text-align: center;
+}
+#ff_header_section span{
+    font-size: 60px;
+}
+/*****Body Section *****/
+#ff_body_section{
+    position: relative;
+    height: 710px;
+    background: radial-gradient(circle, #FFFFFF, #FDFD07, #FF0D01, white, white, white, white, white);
+    color: white;
+}
+/***Login and Registration Section***/
+#ff_log_reg_container_shade{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 140px;
+    height: 400px;
+    width: 800px;
+    background-color: black;
+    opacity: 0.5;
+}
+#ff_log_reg_container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -260px;
+    width: 800px;
+    height: 400px;
+}
+/*Registration Section*/
+#registration_section{
+    position: relative;
+    top: -128px;
+    display: inline-block;
+    height: inherit;
+    width: 390px;
+}
+#button_section{
+    text-align: center;
+}
+#button_section button{
+    height: 100px;
+    width: 200px;
+}
+/*Login Section*/
+#login_section{
+    display: inline-block;
+    height: inherit;
+    width: 390px;
+}
+#login_input_section{
+    text-align: center;
+}
+.login_input{
+    margin-top: 5px;
+    height: 50px;
+    width: 300px;
+}
+#login_button{
+    position: relative;
+    right: -100px;
+    margin-top: 50px;
+    height: 50px;
+    width: 100px;
+}
+.ff_container_txt{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+/*****************Footer Section *******************/
+#ff_footer_section{
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    opacity: 0.3;
+    background-color: grey;
+    text-align: center;
+}
+/****************Login Box Section **************/

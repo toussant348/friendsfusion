@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: green;
+}
+#friendsfusion_container{
+    postion:fixed;
+    height: 100%;
+    width: 100%;
+}
+/*****Header Section***********/
+#banner_section{
+    position: fixed;
+    width: inherit;
+    height: 26px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("../fonts/EpicFusion.ttf");
+}
+#banner_section span{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+/*************************************/
+/************Side-Bar Section*********/
+.side_bar{
+    position: fixed;
+    top: 32px;
+    height: 100%;
+    width: 50px;
+}
+#side_bar_shade_section{
+    opacity: 0.5;
+    background-color: black;
+}
+#side_bar_section{
+}
+/*****************************/
+/**********Footer Section******/
+.footer_section{
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+}
+#footer_shade_copyright_section{
+    background-color:  white;
+    opacity: 0.8;
+}
+#footer_copyright_section{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 15px;
+}
